@@ -1,3 +1,158 @@
-h1 {
-  color: blue;
+input{
+	margin-top: 15px;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+
 }
+
+button{
+	width: 50%;
+	height: 50px;
+	border: none;
+	margin-left: 25%;
+	margin-top: 15px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main-box{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.get-started {
+	font-size: 2em;
+}
+
+.spotify-container{
+	margin: 15px 0 0 0;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	flex-wrap: wrap;
+
+}
+
+.imgur-container{
+	margin: 15px 0 0 0;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	flex-wrap: wrap;
+
+}
+
+
+.artist-name{
+	font-size: 2em;
+	align-self: center;
+	flex-basis: 50%;
+	text-align: center;
+}
+
+.music-player-container{
+	flex-basis: 50%;
+	margin: 15px 0 0 0;
+
+
+}
+
+.imgur-things{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.imgur-things div{
+	flex-basis: 50%;
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.title {
+	flex-basis: 100%;
+	background-color: #eee;
+	padding: 20px;
+	font-size: 2em;
+	text-align: center
+
+}
+.form-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.form-wrapper form{
+	flex-basis: 90%;
+}
+
+.form-wrapper form input{
+	width: 100%;
+}
+
+.form-wrapper select{
+	flex-basis:50%;
+	border: none;
+	height: 50px;
+	margin: 15px 0 0 0;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+.spotify-button{
+	text-align: center;
+	font-size: 1.5em;
+	margin: 15px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 50px;
+	transition: .5s;
+	color: transparent;
+	background-position: center;
+
+}
+
+.spotify-button:hover {
+	opacity: .7;
+	transition: .5s;
+}
+
+.imgur-button{
+	text-align: center;
+	font-size: 1.5em;
+	margin: 15px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 50px;
+	transition: .5s;
+	color: transparent;
+	background-position: center;
+
+}
+
+.imgur-button:hover {
+	opacity: .7;
+	transition: .5s;
+}
+
+.button-wrapper{
+	display: flex;
+	justify-content: center;
+}
+.selected {
+	opacity: .3;
+}
+
+
+
+
