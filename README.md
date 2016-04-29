@@ -12,5 +12,7 @@ I built this app to learn how to connect 3rd party API's to React + Redux projec
 - Webpack
 - Express
 - Babel
+- Spotify API
+- Imgur API
 
 Eventually I'd love to have like 20 buttons, each corresponding to a different API. Useless, **but awesome**
