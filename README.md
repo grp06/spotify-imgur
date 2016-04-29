@@ -1,4 +1,16 @@
-# Webpack-React-Heroku Boilerplate
+# Spotify-Imgur
 
-Heroku deployable boilerplate for React/Flux/Webpack apps.
-This sample is a reference to this [post](http://ditrospecta.com/javascript/react/es6/webpack/heroku/2015/08/08/deploying-react-webpack-heroku.html). 
+Live demo: https://tranquil-sea-74347.herokuapp.com/
+
+I built this app to learn how to connect 3rd party API's to React + Redux projects and deploy Webpack projects to Heroku.
+
+### **Technologies used:**
+- React
+- Redux
+- ES6
+- Node
+- Webpack
+- Express
+- Babel
+
+Eventually I'd love to have like 20 buttons, each corresponding to a different API. Useless, **but awesome**
