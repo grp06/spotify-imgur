@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import ReduxPromise from 'redux-promise';
 
-console.log("hello im georgie")
+console.log("hello im gorge")
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
