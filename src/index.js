@@ -8,6 +8,7 @@ import { createStore, applyMiddleware } from 'redux';
 import ReduxPromise from 'redux-promise';
 
 console.log("hello im gorge")
+console.log("hello im Lurch")
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
